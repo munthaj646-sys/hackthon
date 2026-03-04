@@ -1,0 +1,310 @@
+/* ─── Google Font ─────────────────────────────────────────────────── */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+  --bg-primary: #020409;
+  --bg-card: rgba(6, 12, 26, 0.94);
+  --border-subtle: rgba(255, 255, 255, 0.055);
+  --border-glow: rgba(59, 130, 246, 0.25);
+  --accent-blue: #3b82f6;
+  --accent-cyan: #06b6d4;
+  --accent-emerald: #10b981;
+  --accent-red: #ef4444;
+  --accent-purple: #a855f7;
+  --text-primary: #f0f4ff;
+  --text-muted: #4b5880;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: 'Inter', 'Outfit', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
+  height: 100vh;
+}
+
+/* ─── Glass Layers ───────────────────────────────────────────────────── */
+.glass {
+  background: rgba(255, 255, 255, 0.02);
+  backdrop-filter: blur(28px) saturate(160%);
+  -webkit-backdrop-filter: blur(28px) saturate(160%);
+  border: 1px solid var(--border-subtle);
+}
+
+.glass-card {
+  background: var(--bg-card);
+  backdrop-filter: blur(32px) saturate(180%);
+  -webkit-backdrop-filter: blur(32px) saturate(180%);
+  border: 1px solid var(--border-subtle);
+  box-shadow:
+    0 0 0 1px rgba(255, 255, 255, 0.03) inset,
+    0 32px 80px -8px rgba(0, 0, 0, 0.7),
+    0 0 80px -20px rgba(59, 130, 246, 0.06);
+}
+
+.glass-input {
+  background: rgba(255, 255, 255, 0.035);
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  transition: all 0.2s ease;
+}
+
+.glass-input:focus {
+  background: rgba(255, 255, 255, 0.055);
+  border-color: rgba(59, 130, 246, 0.5);
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+  outline: none;
+}
+
+/* ─── Scrollbar ─────────────────────────────────────────────────────── */
+.no-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(255, 255, 255, 0.06) transparent;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  width: 3px;
+}
+
+.no-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.no-scrollbar::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.07);
+  border-radius: 99px;
+}
+
+/* ─── ECG / Heartbeat ───────────────────────────────────────────────── */
+@keyframes ecg {
+  0% {
+    stroke-dashoffset: 1000;
+  }
+
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+.ecg-line {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  animation: ecg 3s linear infinite;
+}
+
+/* ─── Ambient Orb Float ─────────────────────────────────────────────── */
+@keyframes float-orb {
+
+  0%,
+  100% {
+    transform: translate(0, 0) scale(1);
+  }
+
+  33% {
+    transform: translate(30px, -40px) scale(1.05);
+  }
+
+  66% {
+    transform: translate(-20px, 20px) scale(0.97);
+  }
+}
+
+.orb {
+  animation: float-orb 12s ease-in-out infinite;
+}
+
+.orb-2 {
+  animation: float-orb 18s ease-in-out infinite reverse;
+}
+
+.orb-3 {
+  animation: float-orb 15s ease-in-out infinite 4s;
+}
+
+/* ─── Pulse Ring ────────────────────────────────────────────────────── */
+@keyframes pulse-ring {
+  0% {
+    transform: scale(0.8);
+    opacity: 0.8;
+  }
+
+  100% {
+    transform: scale(2.2);
+    opacity: 0;
+  }
+}
+
+.pulse-ring {
+  animation: pulse-ring 2s cubic-bezier(0.215, 0.61, 0.355, 1) infinite;
+}
+
+/* ─── Shimmer text ──────────────────────────────────────────────────── */
+@keyframes shimmer {
+  0% {
+    background-position: -200% center;
+  }
+
+  100% {
+    background-position: 200% center;
+  }
+}
+
+.shimmer-text {
+  background: linear-gradient(90deg, #60a5fa 0%, #c084fc 30%, #34d399 50%, #60a5fa 70%, #c084fc 100%);
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shimmer 4s linear infinite;
+}
+
+/* ─── Slide animations ──────────────────────────────────────────────── */
+@keyframes slide-up {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.slide-up {
+  animation: slide-up 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.fade-in {
+  animation: fade-in 0.3s ease both;
+}
+
+/* ─── Scanning line ────────────────────────────────────────────────── */
+@keyframes scan {
+
+  0%,
+  100% {
+    top: 0%;
+    opacity: 0.6;
+  }
+
+  50% {
+    top: 100%;
+    opacity: 0;
+  }
+}
+
+.scan-line {
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(59, 130, 246, 0.5), transparent);
+  animation: scan 4s ease-in-out infinite;
+  pointer-events: none;
+}
+
+/* ─── Dot blink cursor ─────────────────────────────────────────────── */
+@keyframes blink {
+
+  0%,
+  100% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+}
+
+.cursor-blink {
+  animation: blink 0.8s step-end infinite;
+}
+
+/* ─── Glow Button ───────────────────────────────────────────────────── */
+.btn-glow {
+  background: linear-gradient(135deg, #3b82f6, #6366f1);
+  box-shadow: 0 0 20px rgba(99, 102, 241, 0.35), 0 4px 16px rgba(0, 0, 0, 0.4);
+  transition: all 0.2s ease;
+}
+
+.btn-glow:hover:not(:disabled) {
+  box-shadow: 0 0 32px rgba(99, 102, 241, 0.55), 0 4px 20px rgba(0, 0, 0, 0.4);
+  transform: translateY(-1px);
+}
+
+.btn-glow:active {
+  transform: translateY(0);
+}
+
+/* ─── Status indicator ─────────────────────────────────────────────── */
+.status-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+}
+
+.status-online {
+  background: #10b981;
+  box-shadow: 0 0 8px rgba(16, 185, 129, 0.7);
+}
+
+.status-offline {
+  background: #ef4444;
+  box-shadow: 0 0 8px rgba(239, 68, 68, 0.7);
+}
+
+.status-pulse {
+  animation: pulse-ring 1.5s cubic-bezier(0.215, 0.61, 0.355, 1) infinite;
+}
+
+/* ─── Neon border ─────────────────────────────────────────────────── */
+.neon-border {
+  border: 1px solid rgba(59, 130, 246, 0.2);
+  box-shadow: 0 0 20px rgba(59, 130, 246, 0.08), inset 0 0 20px rgba(59, 130, 246, 0.03);
+}
+
+/* ─── Message bubble markdown ──────────────────────────────────────── */
+.ai-message strong {
+  color: #93c5fd;
+  font-weight: 600;
+}
+
+.ai-message em {
+  color: #c4b5fd;
+}
+
+.ai-message code {
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 4px;
+  padding: 1px 6px;
+  font-size: 0.85em;
+}
