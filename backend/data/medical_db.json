@@ -1,0 +1,1560 @@
+[
+    {
+        "id": "A001",
+        "category": "adult",
+        "symptom_topic": "Abdominal pain in adults",
+        "disease": "Appendicitis",
+        "symptoms": [
+            "sharp lower right abdominal pain",
+            "fever",
+            "nausea",
+            "vomiting",
+            "loss of appetite",
+            "pain worsens with movement"
+        ],
+        "description": "Inflammation of the appendix. Pain typically starts around the navel and moves to the lower right abdomen. A medical emergency if untreated.",
+        "red_flags": [
+            "Sudden severe pain",
+            "rigid abdomen",
+            "high fever",
+            "pain rebounds when pressure released"
+        ],
+        "urgency_level": "CRITICAL",
+        "pain_scale": 5,
+        "recommended_action": "Go to emergency room immediately. Surgical removal (appendectomy) may be required.",
+        "specialist": "General Surgeon / Emergency Medicine",
+        "icd10": "K37"
+    },
+    {
+        "id": "A002",
+        "category": "adult",
+        "symptom_topic": "Abdominal pain in adults",
+        "disease": "Irritable Bowel Syndrome (IBS)",
+        "symptoms": [
+            "cramping abdominal pain",
+            "bloating",
+            "diarrhea",
+            "constipation",
+            "gas",
+            "mucus in stool"
+        ],
+        "description": "A chronic condition affecting the large intestine. Symptoms are managed long-term. No structural damage occurs.",
+        "red_flags": [
+            "Blood in stool",
+            "unexplained weight loss",
+            "pain waking you at night",
+            "fever"
+        ],
+        "urgency_level": "LOW",
+        "pain_scale": 2,
+        "recommended_action": "Dietary changes, stress management, and fiber intake. Consult a gastroenterologist for persistent symptoms.",
+        "specialist": "Gastroenterologist",
+        "icd10": "K58"
+    },
+    {
+        "id": "A003",
+        "category": "adult",
+        "symptom_topic": "Abdominal pain in adults",
+        "disease": "Peptic Ulcer Disease",
+        "symptoms": [
+            "burning stomach pain",
+            "pain improves with eating or antacids",
+            "nausea",
+            "bloating",
+            "dark tarry stools",
+            "heartburn"
+        ],
+        "description": "Open sores that develop on the inner lining of the stomach or small intestine. Often caused by H. pylori bacteria or NSAIDs.",
+        "red_flags": [
+            "Black tarry stools",
+            "vomiting blood",
+            "sudden severe stomach pain"
+        ],
+        "urgency_level": "MODERATE",
+        "pain_scale": 3,
+        "recommended_action": "Avoid NSAIDs and alcohol. Seek diagnosis for H. pylori. Take prescribed antacids or proton pump inhibitors.",
+        "specialist": "Gastroenterologist",
+        "icd10": "K27"
+    },
+    {
+        "id": "A004",
+        "category": "adult",
+        "symptom_topic": "Blood in stool in adults",
+        "disease": "Hemorrhoids",
+        "symptoms": [
+            "bright red blood on toilet paper or in bowl",
+            "anal itching",
+            "pain during bowel movements",
+            "swelling around anus"
+        ],
+        "description": "Swollen veins in the rectum or anus. The most common cause of rectal bleeding. Usually not serious.",
+        "red_flags": [
+            "Large amounts of blood",
+            "dark blood mixed in stool",
+            "unexplained weight loss"
+        ],
+        "urgency_level": "LOW",
+        "pain_scale": 2,
+        "recommended_action": "Increase fiber intake, sitz baths, topical creams. Consult doctor if bleeding persists or is heavy.",
+        "specialist": "Gastroenterologist / Colorectal Surgeon",
+        "icd10": "K64"
+    },
+    {
+        "id": "A005",
+        "category": "adult",
+        "symptom_topic": "Blood in stool in adults",
+        "disease": "Colorectal Cancer",
+        "symptoms": [
+            "blood in stool",
+            "change in bowel habits lasting weeks",
+            "pencil-thin stools",
+            "feeling bowel not empty",
+            "abdominal pain",
+            "unexplained weight loss",
+            "fatigue"
+        ],
+        "description": "Cancer of the colon or rectum. Early detection via colonoscopy significantly improves prognosis.",
+        "red_flags": [
+            "Persistent blood in stool",
+            "unintentional weight loss",
+            "fatigue",
+            "age over 45 with bowel changes"
+        ],
+        "urgency_level": "HIGH",
+        "pain_scale": 3,
+        "recommended_action": "Immediate medical evaluation required. Colonoscopy and imaging needed for diagnosis.",
+        "specialist": "Oncologist / Gastroenterologist / Colorectal Surgeon",
+        "icd10": "C18"
+    },
+    {
+        "id": "A006",
+        "category": "adult",
+        "symptom_topic": "Chest pain in adults",
+        "disease": "Myocardial Infarction (Heart Attack)",
+        "symptoms": [
+            "crushing chest pressure or tightness",
+            "pain radiating to left arm or jaw",
+            "shortness of breath",
+            "sweating",
+            "nausea",
+            "dizziness",
+            "cold sweat"
+        ],
+        "description": "Occurs when blood flow to a part of the heart is blocked. A life-threatening emergency requiring immediate medical intervention.",
+        "red_flags": [
+            "Any chest pain with arm/jaw radiation",
+            "chest pain with shortness of breath",
+            "sweating with chest pain",
+            "sudden onset"
+        ],
+        "urgency_level": "CRITICAL",
+        "pain_scale": 5,
+        "recommended_action": "Call emergency services (112/911) immediately. Do not drive yourself to the hospital. Chew aspirin if available and not allergic.",
+        "specialist": "Cardiologist / Emergency Medicine",
+        "icd10": "I21"
+    },
+    {
+        "id": "A007",
+        "category": "adult",
+        "symptom_topic": "Chest pain in adults",
+        "disease": "Gastroesophageal Reflux Disease (GERD)",
+        "symptoms": [
+            "burning chest pain (heartburn)",
+            "acid taste in mouth",
+            "pain worsens when lying down or after eating",
+            "difficulty swallowing",
+            "regurgitation"
+        ],
+        "description": "Chronic acid reflux causing stomach acid to flow back into the esophagus, irritating its lining.",
+        "red_flags": [
+            "Chest pain that spreads to arm/jaw",
+            "difficulty swallowing",
+            "weight loss",
+            "vomiting blood"
+        ],
+        "urgency_level": "LOW",
+        "pain_scale": 2,
+        "recommended_action": "Avoid trigger foods, eat smaller meals, elevate head while sleeping. Use antacids or PPIs as prescribed.",
+        "specialist": "Gastroenterologist",
+        "icd10": "K21"
+    },
+    {
+        "id": "A008",
+        "category": "adult",
+        "symptom_topic": "Chest pain in adults",
+        "disease": "Pulmonary Embolism",
+        "symptoms": [
+            "sudden sharp chest pain (worse on breathing in)",
+            "shortness of breath",
+            "coughing up blood",
+            "rapid heart rate",
+            "dizziness",
+            "leg swelling and pain"
+        ],
+        "description": "A blood clot blocking one of the pulmonary arteries in the lungs. Life-threatening and requires urgent care.",
+        "red_flags": [
+            "Sudden chest pain with breathing",
+            "coughing blood",
+            "swollen painful leg",
+            "rapid heart rate"
+        ],
+        "urgency_level": "CRITICAL",
+        "pain_scale": 5,
+        "recommended_action": "Emergency room immediately. This is life-threatening. Anticoagulant therapy required.",
+        "specialist": "Emergency Medicine / Pulmonologist",
+        "icd10": "I26"
+    },
+    {
+        "id": "A009",
+        "category": "adult",
+        "symptom_topic": "Constipation in adults",
+        "disease": "Functional Constipation",
+        "symptoms": [
+            "infrequent bowel movements (fewer than 3 per week)",
+            "hard or lumpy stools",
+            "straining during bowel movements",
+            "sensation of incomplete emptying",
+            "bloating"
+        ],
+        "description": "A common condition where bowel movements are infrequent or difficult. Often due to low fiber diet or dehydration.",
+        "red_flags": [
+            "Blood in stool",
+            "weight loss",
+            "severe pain",
+            "constipation lasting over 3 weeks"
+        ],
+        "urgency_level": "LOW",
+        "pain_scale": 1,
+        "recommended_action": "Increase fiber and water intake. Regular exercise. Use stool softeners if needed. Consult doctor if persistent.",
+        "specialist": "General Physician / Gastroenterologist",
+        "icd10": "K59.0"
+    },
+    {
+        "id": "A010",
+        "category": "adult",
+        "symptom_topic": "Cough in adults",
+        "disease": "Pneumonia",
+        "symptoms": [
+            "productive cough with yellow or green mucus",
+            "fever",
+            "chills",
+            "shortness of breath",
+            "chest pain on breathing",
+            "fatigue",
+            "sweating"
+        ],
+        "description": "Infection that inflames the air sacs in one or both lungs, which may fill with fluid or pus.",
+        "red_flags": [
+            "High fever over 39°C",
+            "difficulty breathing",
+            "bluish lips",
+            "confusion in elderly",
+            "coughing blood"
+        ],
+        "urgency_level": "HIGH",
+        "pain_scale": 4,
+        "recommended_action": "See a doctor immediately. May require antibiotics, chest X-ray, and hospitalization in severe cases.",
+        "specialist": "Pulmonologist / General Physician",
+        "icd10": "J18"
+    },
+    {
+        "id": "A011",
+        "category": "adult",
+        "symptom_topic": "Cough in adults",
+        "disease": "Asthma",
+        "symptoms": [
+            "recurring episodes of wheezing",
+            "breathlessness",
+            "chest tightness",
+            "cough especially at night",
+            "triggered by exercise or allergens"
+        ],
+        "description": "Chronic inflammatory disease of the airway that causes episodic breathing difficulties.",
+        "red_flags": [
+            "Severe breathlessness",
+            "no relief from rescue inhaler",
+            "bluish lips",
+            "unable to speak in full sentences"
+        ],
+        "urgency_level": "MODERATE",
+        "pain_scale": 3,
+        "recommended_action": "Use rescue inhaler immediately. Avoid triggers. If no relief, seek emergency care (status asthmaticus).",
+        "specialist": "Pulmonologist / Allergist",
+        "icd10": "J45"
+    },
+    {
+        "id": "A012",
+        "category": "adult",
+        "symptom_topic": "Diarrhea in adults",
+        "disease": "Cholera",
+        "symptoms": [
+            "profuse watery diarrhea (rice-water stools)",
+            "vomiting",
+            "rapid dehydration",
+            "muscle cramps",
+            "low urine output",
+            "dry mouth"
+        ],
+        "description": "A severe bacterial infection caused by Vibrio cholerae. A medical emergency due to severe dehydration.",
+        "red_flags": [
+            "Extremely frequent watery diarrhea",
+            "rapid dehydration",
+            "sunken eyes",
+            "no urine output"
+        ],
+        "urgency_level": "CRITICAL",
+        "pain_scale": 4,
+        "recommended_action": "Emergency rehydration therapy (ORS or IV fluids). Immediate hospitalization required.",
+        "specialist": "Infectious Disease Specialist / Emergency Medicine",
+        "icd10": "A00"
+    },
+    {
+        "id": "A013",
+        "category": "adult",
+        "symptom_topic": "Difficulty swallowing in adults",
+        "disease": "Esophageal Cancer",
+        "symptoms": [
+            "progressive difficulty swallowing solids then liquids",
+            "unintentional weight loss",
+            "chest pain or pressure",
+            "hoarseness",
+            "regurgitation",
+            "chronic cough"
+        ],
+        "description": "Cancer of the esophagus. Often diagnosed late. Progressive swallowing difficulty is the hallmark symptom.",
+        "red_flags": [
+            "Progressive dysphagia",
+            "significant weight loss",
+            "blood in vomit"
+        ],
+        "urgency_level": "HIGH",
+        "pain_scale": 3,
+        "recommended_action": "Urgent referral for endoscopy and biopsy. Oncology consultation needed.",
+        "specialist": "Gastroenterologist / Oncologist",
+        "icd10": "C15"
+    },
+    {
+        "id": "A014",
+        "category": "adult",
+        "symptom_topic": "Dizziness in adults",
+        "disease": "Benign Paroxysmal Positional Vertigo (BPPV)",
+        "symptoms": [
+            "brief episodes of dizziness",
+            "spinning sensation (vertigo) triggered by head position changes",
+            "nausea",
+            "nystagmus"
+        ],
+        "description": "The most common cause of vertigo. Occurs when calcium crystals in the inner ear become displaced.",
+        "red_flags": [
+            "Vertigo with headache",
+            "diplopia (double vision)",
+            "difficulty walking",
+            "new hearing loss"
+        ],
+        "urgency_level": "LOW",
+        "pain_scale": 2,
+        "recommended_action": "Epley maneuver performed by a physiotherapist or ENT. Avoid sudden head movements.",
+        "specialist": "ENT Specialist / Neurotologist",
+        "icd10": "H81.1"
+    },
+    {
+        "id": "A015",
+        "category": "adult",
+        "symptom_topic": "Dizziness in adults",
+        "disease": "Stroke (Cerebrovascular Accident)",
+        "symptoms": [
+            "sudden severe dizziness",
+            "loss of balance",
+            "sudden numbness or weakness on one side",
+            "facial drooping",
+            "arm weakness",
+            "speech difficulty",
+            "sudden confusion",
+            "severe sudden headache"
+        ],
+        "description": "Occurs when blood supply to the brain is interrupted. Brain cells begin dying within minutes. Use FAST acronym (Face, Arms, Speech, Time).",
+        "red_flags": [
+            "Facial drooping",
+            "arm weakness",
+            "speech slurring",
+            "sudden severe headache",
+            "vision changes"
+        ],
+        "urgency_level": "CRITICAL",
+        "pain_scale": 4,
+        "recommended_action": "Call emergency services (112/911) immediately. Time is brain - every minute matters for clot-busting treatment.",
+        "specialist": "Neurologist / Emergency Medicine",
+        "icd10": "I63"
+    },
+    {
+        "id": "A016",
+        "category": "adult",
+        "symptom_topic": "Eye discomfort and redness in adults",
+        "disease": "Acute Angle-Closure Glaucoma",
+        "symptoms": [
+            "sudden severe eye pain",
+            "red eye",
+            "blurred vision",
+            "halos around lights",
+            "headache",
+            "nausea",
+            "vomiting"
+        ],
+        "description": "A sudden increase in intraocular pressure that can cause permanent vision loss within hours if untreated.",
+        "red_flags": [
+            "Sudden severe eye pain with vision loss",
+            "halos around lights",
+            "vomiting with eye pain"
+        ],
+        "urgency_level": "CRITICAL",
+        "pain_scale": 5,
+        "recommended_action": "Ophthalmology emergency. Immediate intervention needed to reduce eye pressure and prevent blindness.",
+        "specialist": "Ophthalmologist",
+        "icd10": "H40.2"
+    },
+    {
+        "id": "A017",
+        "category": "adult",
+        "symptom_topic": "Eye discomfort and redness in adults",
+        "disease": "Conjunctivitis (Pink Eye)",
+        "symptoms": [
+            "redness in one or both eyes",
+            "itchy eyes",
+            "discharge (crusty in morning)",
+            "tearing",
+            "burning sensation",
+            "light sensitivity"
+        ],
+        "description": "Inflammation of the conjunctiva. Can be viral (most common), bacterial, or allergic.",
+        "red_flags": [
+            "Severe pain",
+            "blurry vision that doesn't clear with blinking",
+            "intense redness",
+            "light sensitivity"
+        ],
+        "urgency_level": "LOW",
+        "pain_scale": 1,
+        "recommended_action": "Viral: self-limiting, clean discharge, avoid contact. Bacterial: antibiotic eye drops. Allergic: antihistamine drops.",
+        "specialist": "General Physician / Ophthalmologist",
+        "icd10": "H10"
+    },
+    {
+        "id": "A018",
+        "category": "adult",
+        "symptom_topic": "Headaches in adults",
+        "disease": "Migraine",
+        "symptoms": [
+            "severe throbbing or pulsating headache",
+            "usually on one side of head",
+            "nausea",
+            "vomiting",
+            "sensitivity to light and sound",
+            "aura (visual disturbances)",
+            "lasts 4-72 hours"
+        ],
+        "description": "A neurological disorder causing recurrent, often debilitating headaches that interfere with daily life.",
+        "red_flags": [
+            "Sudden worst headache of your life (thunderclap)",
+            "headache with fever and stiff neck",
+            "headache after head injury"
+        ],
+        "urgency_level": "MODERATE",
+        "pain_scale": 4,
+        "recommended_action": "Rest in a dark quiet room. Triptans or prescribed migraine medication. Identify and avoid triggers.",
+        "specialist": "Neurologist",
+        "icd10": "G43"
+    },
+    {
+        "id": "A019",
+        "category": "adult",
+        "symptom_topic": "Headaches in adults",
+        "disease": "Subarachnoid Hemorrhage",
+        "symptoms": [
+            "sudden thunderclap headache (worst headache of life)",
+            "stiff neck",
+            "vomiting",
+            "photophobia",
+            "brief loss of consciousness",
+            "blurred or double vision"
+        ],
+        "description": "Bleeding in the space surrounding the brain. Often caused by a ruptured aneurysm. Life-threatening emergency.",
+        "red_flags": [
+            "Sudden onset worst headache ever",
+            "stiff neck",
+            "loss of consciousness"
+        ],
+        "urgency_level": "CRITICAL",
+        "pain_scale": 5,
+        "recommended_action": "Emergency 112/911 immediately. CT scan and neurosurgical intervention required.",
+        "specialist": "Neurosurgeon / Emergency Medicine",
+        "icd10": "I60"
+    },
+    {
+        "id": "A020",
+        "category": "adult",
+        "symptom_topic": "Heart palpitations in adults",
+        "disease": "Atrial Fibrillation",
+        "symptoms": [
+            "irregular heartbeat",
+            "rapid fluttering heart",
+            "chest discomfort",
+            "shortness of breath",
+            "dizziness",
+            "fatigue",
+            "weakness"
+        ],
+        "description": "An irregular and often rapid heart rate that can increase the risk of stroke, heart failure, and other heart-related complications.",
+        "red_flags": [
+            "Palpitations with chest pain",
+            "loss of consciousness",
+            "rapid heart rate over 150 bpm",
+            "shortness of breath"
+        ],
+        "urgency_level": "HIGH",
+        "pain_scale": 3,
+        "recommended_action": "Seek immediate medical evaluation. ECG needed. May require rate control medications or cardioversion.",
+        "specialist": "Cardiologist",
+        "icd10": "I48"
+    },
+    {
+        "id": "A021",
+        "category": "adult",
+        "symptom_topic": "Hip pain in adults",
+        "disease": "Hip Fracture",
+        "symptoms": [
+            "severe hip pain after fall",
+            "inability to walk or bear weight",
+            "shortened and externally rotated leg",
+            "bruising around hip"
+        ],
+        "description": "A serious injury common in older adults with osteoporosis. Requires urgent surgical intervention.",
+        "red_flags": [
+            "Cannot walk after fall",
+            "severe hip pain after any injury in elderly"
+        ],
+        "urgency_level": "CRITICAL",
+        "pain_scale": 5,
+        "recommended_action": "Emergency care immediately. X-ray required. Surgical repair (ORIF or hip replacement) typically needed.",
+        "specialist": "Orthopedic Surgeon",
+        "icd10": "S72"
+    },
+    {
+        "id": "A022",
+        "category": "adult",
+        "symptom_topic": "Hip pain in adults",
+        "disease": "Osteoarthritis of the Hip",
+        "symptoms": [
+            "gradual hip pain worsening over time",
+            "stiffness after sitting or lying",
+            "reduced range of motion",
+            "grinding or crunching sensation",
+            "pain in groin or buttock"
+        ],
+        "description": "Degenerative joint disease causing progressive cartilage breakdown in the hip joint.",
+        "red_flags": [
+            "Severe rapid joint destruction",
+            "fever with joint swelling",
+            "nighttime pain that wakes you"
+        ],
+        "urgency_level": "LOW",
+        "pain_scale": 2,
+        "recommended_action": "Weight management, physical therapy, NSAIDs for pain. Joint replacement if severe.",
+        "specialist": "Orthopedic Surgeon / Rheumatologist",
+        "icd10": "M16"
+    },
+    {
+        "id": "A023",
+        "category": "adult",
+        "symptom_topic": "Knee pain in adults",
+        "disease": "Anterior Cruciate Ligament (ACL) Tear",
+        "symptoms": [
+            "loud 'pop' at time of injury",
+            "immediate severe knee pain",
+            "rapid swelling",
+            "instability or giving way",
+            "inability to bear full weight"
+        ],
+        "description": "A tear of one of the major ligaments in the knee, often from sports pivoting or landing. Common in athletes.",
+        "red_flags": [
+            "Inability to bear weight",
+            "severe swelling within hours of injury",
+            "locked knee"
+        ],
+        "urgency_level": "HIGH",
+        "pain_scale": 4,
+        "recommended_action": "RICE (Rest, Ice, Compression, Elevation). Orthopedic evaluation. MRI for confirmation. Surgery may be required.",
+        "specialist": "Orthopedic Surgeon / Sports Medicine",
+        "icd10": "S83.5"
+    },
+    {
+        "id": "A024",
+        "category": "adult",
+        "symptom_topic": "Low back pain in adults",
+        "disease": "Lumbar Disc Herniation",
+        "symptoms": [
+            "lower back ache",
+            "pain radiating down the leg (sciatica)",
+            "numbness or tingling in leg or foot",
+            "weakness in leg",
+            "pain worsens with sitting or bending"
+        ],
+        "description": "A displaced disc in the lumbar spine pressing on spinal nerves. A common cause of sciatica.",
+        "red_flags": [
+            "Loss of bladder or bowel control",
+            "saddle anesthesia",
+            "progressive weakness in both legs"
+        ],
+        "urgency_level": "MODERATE",
+        "pain_scale": 3,
+        "recommended_action": "Rest, NSAIDs, physiotherapy. MRI for confirmation. Surgery (microdiscectomy) for severe neurological compromise.",
+        "specialist": "Neurosurgeon / Orthopedic Surgeon / Physiatrist",
+        "icd10": "M51.1"
+    },
+    {
+        "id": "A025",
+        "category": "adult",
+        "symptom_topic": "Low back pain in adults",
+        "disease": "Cauda Equina Syndrome",
+        "symptoms": [
+            "severe low back pain",
+            "numbness or tingling in saddle area (groin inner thighs)",
+            "loss of bladder or bowel control",
+            "leg weakness",
+            "sexual dysfunction"
+        ],
+        "description": "Compression of the cauda equina nerve bundle. A surgical emergency if not treated within hours.",
+        "red_flags": [
+            "Bladder or bowel incontinence with back pain",
+            "saddle anesthesia (numbness in groin)"
+        ],
+        "urgency_level": "CRITICAL",
+        "pain_scale": 5,
+        "recommended_action": "Emergency surgical decompression required immediately to prevent permanent paralysis.",
+        "specialist": "Neurosurgeon",
+        "icd10": "G83.4"
+    },
+    {
+        "id": "A026",
+        "category": "adult",
+        "symptom_topic": "Nasal congestion in adults",
+        "disease": "Sinusitis",
+        "symptoms": [
+            "blocked nose",
+            "facial pain or pressure",
+            "thick nasal discharge",
+            "reduced sense of smell",
+            "headache around forehead or cheeks",
+            "postnasal drip",
+            "cough"
+        ],
+        "description": "Inflammation of the sinuses. Acute sinusitis (under 4 weeks) is usually viral. Chronic sinusitis persists over 12 weeks.",
+        "red_flags": [
+            "Swelling around the eye",
+            "severe headache with stiff neck",
+            "visual changes",
+            "confusion"
+        ],
+        "urgency_level": "LOW",
+        "pain_scale": 2,
+        "recommended_action": "Saline nasal rinse, decongestants, steam inhalation. Antibiotics for bacterial sinusitis confirmed by doctor.",
+        "specialist": "ENT Specialist / General Physician",
+        "icd10": "J32"
+    },
+    {
+        "id": "A027",
+        "category": "adult",
+        "symptom_topic": "Nausea or vomiting in adults",
+        "disease": "Diabetic Ketoacidosis (DKA)",
+        "symptoms": [
+            "nausea and vomiting",
+            "abdominal pain",
+            "excessive thirst",
+            "frequent urination",
+            "fruity breath odor",
+            "confusion",
+            "weakness",
+            "rapid breathing"
+        ],
+        "description": "A life-threatening complication of diabetes where the body produces excess ketones. Most common in Type 1 diabetics.",
+        "red_flags": [
+            "Fruity breath in diabetic",
+            "vomiting in known diabetic",
+            "confusion and deep rapid breathing"
+        ],
+        "urgency_level": "CRITICAL",
+        "pain_scale": 4,
+        "recommended_action": "Emergency hospitalization immediately. IV fluids, insulin, and electrolyte replacement required.",
+        "specialist": "Endocrinologist / Emergency Medicine",
+        "icd10": "E10.1"
+    },
+    {
+        "id": "A028",
+        "category": "adult",
+        "symptom_topic": "Neck pain in adults",
+        "disease": "Cervical Spondylosis",
+        "symptoms": [
+            "neck stiffness and pain",
+            "headache at base of skull",
+            "numbness or tingling in arms",
+            "weakness in arms or hands",
+            "pain worsens with movement"
+        ],
+        "description": "Age-related wear-and-tear of the cervical spine. Very common in adults over 40.",
+        "red_flags": [
+            "Progressive arm/leg weakness",
+            "loss of bladder or bowel control",
+            "inability to walk"
+        ],
+        "urgency_level": "LOW",
+        "pain_scale": 2,
+        "recommended_action": "Physiotherapy, neck exercises, NSAIDs. Collar support. Surgery for myelopathy or severe cord compression.",
+        "specialist": "Neurosurgeon / Orthopedic Surgeon / Physiatrist",
+        "icd10": "M47.8"
+    },
+    {
+        "id": "A029",
+        "category": "adult",
+        "symptom_topic": "Numbness or tingling in hands in adults",
+        "disease": "Carpal Tunnel Syndrome",
+        "symptoms": [
+            "numbness in thumb, index, and middle fingers",
+            "tingling in hands especially at night",
+            "weak grip",
+            "dropping objects",
+            "wrist pain",
+            "radiates up the arm"
+        ],
+        "description": "Compression of the median nerve as it passes through the carpal tunnel in the wrist.",
+        "red_flags": [
+            "Severe constant numbness",
+            "significant hand muscle wasting (thenar atrophy)",
+            "loss of fine motor skills"
+        ],
+        "urgency_level": "LOW",
+        "pain_scale": 2,
+        "recommended_action": "Wrist splints at night, avoid repetitive wrist flexion. Corticosteroid injection. Surgery (carpal tunnel release) for severe cases.",
+        "specialist": "Orthopedic Surgeon / Neurologist",
+        "icd10": "G56.0"
+    },
+    {
+        "id": "A030",
+        "category": "adult",
+        "symptom_topic": "Pelvic pain in adult females",
+        "disease": "Ectopic Pregnancy",
+        "symptoms": [
+            "sharp one-sided pelvic pain",
+            "vaginal bleeding",
+            "shoulder tip pain (diaphragm irritation)",
+            "dizziness or fainting",
+            "nausea",
+            "positive pregnancy test"
+        ],
+        "description": "A pregnancy that develops outside the uterus (usually in a fallopian tube). Life-threatening if the tube ruptures.",
+        "red_flags": [
+            "Positive pregnancy test with pelvic pain",
+            "shoulder pain",
+            "dizziness",
+            "fainting"
+        ],
+        "urgency_level": "CRITICAL",
+        "pain_scale": 5,
+        "recommended_action": "Emergency room immediately. Ultrasound required. Surgical or medical management (methotrexate) essential.",
+        "specialist": "Gynecologist / Emergency Medicine",
+        "icd10": "O00"
+    },
+    {
+        "id": "A031",
+        "category": "adult",
+        "symptom_topic": "Pelvic pain in adult females",
+        "disease": "Endometriosis",
+        "symptoms": [
+            "severe menstrual cramping",
+            "chronic pelvic pain",
+            "pain during intercourse",
+            "pain during bowel movements",
+            "heavy menstrual flow",
+            "infertility",
+            "fatigue"
+        ],
+        "description": "Tissue similar to the uterine lining grows outside the uterus, causing inflammation and scar tissue.",
+        "red_flags": [
+            "Pelvic pain so severe it prevents daily activity",
+            "pain with intercourse that is new or worsening"
+        ],
+        "urgency_level": "MODERATE",
+        "pain_scale": 3,
+        "recommended_action": "Hormonal therapy, pain management, laparoscopic surgery for diagnosis and treatment.",
+        "specialist": "Gynecologist",
+        "icd10": "N80"
+    },
+    {
+        "id": "A032",
+        "category": "adult",
+        "symptom_topic": "Pelvic pain in adult males",
+        "disease": "Testicular Torsion",
+        "symptoms": [
+            "sudden severe testicular pain",
+            "swollen or tender testicle",
+            "nausea and vomiting",
+            "one testicle higher than normal",
+            "abdominal pain",
+            "fever (late sign)"
+        ],
+        "description": "Twisting of the spermatic cord, cutting off blood supply to the testicle. A surgical emergency — testis may be lost within 6 hours.",
+        "red_flags": [
+            "Sudden severe testicular pain",
+            "nausea with testicular pain",
+            "swollen testicle"
+        ],
+        "urgency_level": "CRITICAL",
+        "pain_scale": 5,
+        "recommended_action": "Emergency surgery (detorsion) required IMMEDIATELY within 6 hours to save the testicle.",
+        "specialist": "Urologist / Emergency Medicine",
+        "icd10": "N44.0"
+    },
+    {
+        "id": "A033",
+        "category": "adult",
+        "symptom_topic": "Shortness of breath in adults",
+        "disease": "Pulmonary Edema",
+        "symptoms": [
+            "severe shortness of breath",
+            "wheezing",
+            "pink frothy sputum",
+            "inability to lie flat",
+            "rapid breathing",
+            "blue lips (cyanosis)",
+            "anxiety"
+        ],
+        "description": "Fluid accumulation in the lungs. Often caused by heart failure. A life-threatening emergency.",
+        "red_flags": [
+            "Frothy or pink sputum",
+            "severe breathlessness",
+            "cyanosis",
+            "complete inability to lie down"
+        ],
+        "urgency_level": "CRITICAL",
+        "pain_scale": 5,
+        "recommended_action": "Call emergency services immediately. Sit upright. Oxygen therapy. Diuretics and cardiac support in hospital.",
+        "specialist": "Cardiologist / Pulmonologist / Emergency Medicine",
+        "icd10": "J81"
+    },
+    {
+        "id": "A034",
+        "category": "adult",
+        "symptom_topic": "Shoulder pain in adults",
+        "disease": "Rotator Cuff Tear",
+        "symptoms": [
+            "pain and weakness in the shoulder",
+            "difficulty raising arm",
+            "pain at night",
+            "clicking or popping in shoulder",
+            "difficulty reaching behind back"
+        ],
+        "description": "A tear in one or more of the four rotator cuff tendons of the shoulder. Common in people over 40 and athletes.",
+        "red_flags": [
+            "Complete arm weakness",
+            "inability to lift arm",
+            "pain after acute trauma"
+        ],
+        "urgency_level": "MODERATE",
+        "pain_scale": 3,
+        "recommended_action": "Rest, ice, NSAIDs. Physiotherapy. MRI for diagnosis. Surgery for complete tears or persistent pain.",
+        "specialist": "Orthopedic Surgeon",
+        "icd10": "M75.1"
+    },
+    {
+        "id": "A035",
+        "category": "adult",
+        "symptom_topic": "Sore throat in adults",
+        "disease": "Streptococcal Pharyngitis (Strep Throat)",
+        "symptoms": [
+            "severe sore throat with sudden onset",
+            "difficulty swallowing",
+            "fever above 38°C",
+            "red and swollen tonsils with white patches",
+            "swollen lymph nodes in neck",
+            "no cough"
+        ],
+        "description": "Bacterial throat infection caused by group A Streptococcus. Needs antibiotic treatment to prevent rheumatic fever.",
+        "red_flags": [
+            "Throat swelling causing difficulty breathing",
+            "drooling",
+            "neck stiffness with sore throat"
+        ],
+        "urgency_level": "MODERATE",
+        "pain_scale": 3,
+        "recommended_action": "Throat swab for culture. Antibiotics (penicillin or amoxicillin) for confirmed strep. Avoid school/work for 24 hours.",
+        "specialist": "ENT Specialist / General Physician",
+        "icd10": "J02.0"
+    },
+    {
+        "id": "A036",
+        "category": "adult",
+        "symptom_topic": "Sore throat in adults",
+        "disease": "Epiglottitis",
+        "symptoms": [
+            "severe sore throat",
+            "drooling",
+            "difficulty and painful swallowing",
+            "muffled or hot-potato voice",
+            "high fever",
+            "stridor (noisy breathing)",
+            "sitting upright position preferred"
+        ],
+        "description": "Inflammation of the epiglottis. A life-threatening emergency that can rapidly obstruct the airway.",
+        "red_flags": [
+            "Drooling with sore throat",
+            "stridor",
+            "sitting forward with mouth open",
+            "high fever"
+        ],
+        "urgency_level": "CRITICAL",
+        "pain_scale": 5,
+        "recommended_action": "Emergency 112/911 immediately. Do not attempt to examine throat. Airway management is priority.",
+        "specialist": "Emergency Medicine / Anesthesiologist / ENT",
+        "icd10": "J05.1"
+    },
+    {
+        "id": "A037",
+        "category": "adult",
+        "symptom_topic": "Urinary problems in adults",
+        "disease": "Urinary Tract Infection (UTI)",
+        "symptoms": [
+            "burning sensation during urination",
+            "frequent urge to urinate",
+            "cloudy or strong-smelling urine",
+            "pelvic pain",
+            "blood in urine",
+            "low-grade fever"
+        ],
+        "description": "Bacterial infection in the urinary system. More common in women. Usually involves the bladder (cystitis).",
+        "red_flags": [
+            "Fever with back or flank pain (kidney involvement)",
+            "blood in urine",
+            "symptoms in men (unusual)"
+        ],
+        "urgency_level": "MODERATE",
+        "pain_scale": 2,
+        "recommended_action": "Increase water intake. Antibiotics prescribed after urine culture. Avoid holding urine.",
+        "specialist": "General Physician / Urologist",
+        "icd10": "N39.0"
+    },
+    {
+        "id": "A038",
+        "category": "adult",
+        "symptom_topic": "Wheezing in adults",
+        "disease": "Chronic Obstructive Pulmonary Disease (COPD)",
+        "symptoms": [
+            "chronic wheezing",
+            "shortness of breath with activity",
+            "chronic cough with mucus",
+            "chest tightness",
+            "frequent respiratory infections",
+            "blue fingernails in severe cases"
+        ],
+        "description": "A chronic inflammatory lung disease causing obstructed airflow. Primarily caused by smoking. Progressive.",
+        "red_flags": [
+            "Severe acute breathlessness",
+            "cyanosis",
+            "unable to complete sentences",
+            "confusion"
+        ],
+        "urgency_level": "MODERATE",
+        "pain_scale": 3,
+        "recommended_action": "Stop smoking immediately. Bronchodilators and corticosteroids. Pulmonary rehabilitation. Oxygen therapy for severe cases.",
+        "specialist": "Pulmonologist",
+        "icd10": "J44"
+    },
+    {
+        "id": "A039",
+        "category": "adult",
+        "symptom_topic": "Foot pain or ankle pain in adults",
+        "disease": "Plantar Fasciitis",
+        "symptoms": [
+            "stabbing heel pain especially on first steps in the morning",
+            "pain after prolonged standing",
+            "pain at the bottom of heel",
+            "stiffness in the foot",
+            "pain worse after exercise"
+        ],
+        "description": "Inflammation of the plantar fascia — the thick band of tissue connecting the heel bone to the toes.",
+        "red_flags": [
+            "Heel pain after trauma",
+            "swelling and redness suggesting infection",
+            "numbness"
+        ],
+        "urgency_level": "LOW",
+        "pain_scale": 2,
+        "recommended_action": "Stretching exercises, supportive footwear, NSAIDs, orthotics. Corticosteroid injection or extracorporeal shock wave therapy.",
+        "specialist": "Orthopedic Surgeon / Podiatrist / Physiotherapist",
+        "icd10": "M72.2"
+    },
+    {
+        "id": "A040",
+        "category": "adult",
+        "symptom_topic": "Foot swelling or leg swelling in adults",
+        "disease": "Deep Vein Thrombosis (DVT)",
+        "symptoms": [
+            "unilateral leg swelling",
+            "pain or tenderness in leg (especially calf)",
+            "warmth and redness over the swollen area",
+            "visible surface veins"
+        ],
+        "description": "A blood clot in a deep vein, usually in the leg. Can be life-threatening if the clot moves to the lungs (pulmonary embolism).",
+        "red_flags": [
+            "Unilateral leg swelling with pain",
+            "sudden chest pain or shortness of breath (PE)"
+        ],
+        "urgency_level": "HIGH",
+        "pain_scale": 3,
+        "recommended_action": "Urgent Doppler ultrasound confirmation. Anticoagulant therapy (heparin, warfarin, or DOAC) required.",
+        "specialist": "Vascular Surgeon / Hematologist / Internal Medicine",
+        "icd10": "I82.4"
+    },
+    {
+        "id": "A041",
+        "category": "adult",
+        "symptom_topic": "Viral Meningitis",
+        "disease": "Viral Meningitis",
+        "symptoms": [
+            "fever",
+            "severe headache",
+            "stiff neck",
+            "sensitivity to light (photophobia)",
+            "sensitivity to sound (phonophobia)",
+            "nausea",
+            "vomiting",
+            "drowsiness"
+        ],
+        "description": "Inflammation of the protective membranes covering the brain and spinal cord, typically caused by a viral infection.",
+        "red_flags": [
+            "Rapidly worsening headache and stiff neck",
+            "petechial rash (non-blanching)",
+            "confusion or altered consciousness"
+        ],
+        "urgency_level": "HIGH",
+        "pain_scale": 4,
+        "recommended_action": "Immediate emergency department visit. Lumbar puncture (spinal tap) for diagnosis. Antiviral therapy.",
+        "specialist": "Neurologist / Infectious Disease Specialist",
+        "icd10": "A87"
+    },
+    {
+        "id": "C001",
+        "category": "child",
+        "symptom_topic": "Abdominal pain in children",
+        "disease": "Intussusception",
+        "symptoms": [
+            "sudden severe colicky abdominal pain",
+            "child draws knees to chest",
+            "vomiting",
+            "currant jelly stools (red mucousy stools)",
+            "palpable abdominal mass",
+            "periods of normal behavior in between attacks"
+        ],
+        "description": "A medical emergency where part of the intestine folds into another section. Most common in infants 6 months to 3 years.",
+        "red_flags": [
+            "Currant jelly stools in infant",
+            "colicky pain with vomiting in infant",
+            "abdominal mass"
+        ],
+        "urgency_level": "CRITICAL",
+        "pain_scale": 5,
+        "recommended_action": "Emergency room immediately. Air or contrast enema for reduction. Surgery if unsuccessful.",
+        "specialist": "Pediatric Surgeon / Pediatric Emergency Medicine",
+        "icd10": "K56.1"
+    },
+    {
+        "id": "C002",
+        "category": "child",
+        "symptom_topic": "Constipation in children",
+        "disease": "Functional Constipation in Children",
+        "symptoms": [
+            "fewer than 3 bowel movements per week",
+            "hard, painful stools",
+            "straining or withholding behavior",
+            "abdominal pain relieved by defecation",
+            "soiling of underwear (encopresis)",
+            "poor appetite"
+        ],
+        "description": "Very common in children, often related to dietary issues, toilet training problems, or avoidance after a painful stool.",
+        "red_flags": [
+            "No meconium in first 48 hours (Hirschsprung's)",
+            "abdominal distension",
+            "failure to thrive",
+            "ribbon-like stools"
+        ],
+        "urgency_level": "LOW",
+        "pain_scale": 1,
+        "recommended_action": "Increase fluid and fiber intake. Toilet routine. Laxatives (polyethylene glycol) as prescribed. Exclude Hirschsprung's if severe.",
+        "specialist": "Pediatrician / Pediatric Gastroenterologist",
+        "icd10": "K59.00"
+    },
+    {
+        "id": "C003",
+        "category": "child",
+        "symptom_topic": "Cough in children",
+        "disease": "Croup",
+        "symptoms": [
+            "barking seal-like cough",
+            "hoarse voice",
+            "inspiratory stridor (harsh breathing sound)",
+            "low-grade fever",
+            "worse at night",
+            "preceded by cold symptoms"
+        ],
+        "description": "A viral infection causing swelling around the larynx and trachea. Most common in children aged 6 months to 3 years.",
+        "red_flags": [
+            "Severe stridor at rest",
+            "difficulty breathing with retractions",
+            "cyanosis",
+            "drooling (epiglottitis suspects)"
+        ],
+        "urgency_level": "MODERATE",
+        "pain_scale": 3,
+        "recommended_action": "Cool mist or steam humidifier. Corticosteroids (dexamethasone). Nebulized epinephrine for moderate-severe cases.",
+        "specialist": "Pediatrician / Pediatric Emergency Medicine",
+        "icd10": "J05.0"
+    },
+    {
+        "id": "C004",
+        "category": "child",
+        "symptom_topic": "Diarrhea in children",
+        "disease": "Rotavirus Gastroenteritis",
+        "symptoms": [
+            "watery diarrhea",
+            "vomiting",
+            "fever",
+            "abdominal cramps",
+            "dehydration signs (dry mouth, no tears, sunken eyes, decreased urination)"
+        ],
+        "description": "The leading cause of severe diarrheal disease in children under 5 worldwide. Highly contagious.",
+        "red_flags": [
+            "Sunken fontanelle",
+            "no tears when crying",
+            "less than 1 wet diaper in 8 hours",
+            "lethargic child"
+        ],
+        "urgency_level": "HIGH",
+        "pain_scale": 3,
+        "recommended_action": "Oral rehydration solution (ORS) is critical. IV fluids if severely dehydrated. Zinc supplementation for children over 6 months.",
+        "specialist": "Pediatrician",
+        "icd10": "A08.0"
+    },
+    {
+        "id": "C005",
+        "category": "child",
+        "symptom_topic": "Ear problems in children",
+        "disease": "Acute Otitis Media (Middle Ear Infection)",
+        "symptoms": [
+            "ear pain (child may pull or tug at ear)",
+            "fever",
+            "irritability",
+            "difficulty sleeping",
+            "fluid drainage from ear",
+            "temporary hearing reduction",
+            "loss of appetite"
+        ],
+        "description": "Infection of the middle ear. The most common childhood infection requiring antibiotic treatment.",
+        "red_flags": [
+            "Redness and swelling behind the ear (mastoiditis)",
+            "facial weakness",
+            "meningism signs",
+            "very high fever"
+        ],
+        "urgency_level": "MODERATE",
+        "pain_scale": 3,
+        "recommended_action": "Pain relief (paracetamol/ibuprofen). Antibiotics (amoxicillin) for children under 2 or severe cases. Watchful waiting in mild cases over 2.",
+        "specialist": "Pediatrician / ENT Specialist",
+        "icd10": "H66"
+    },
+    {
+        "id": "C006",
+        "category": "child",
+        "symptom_topic": "Fever in children",
+        "disease": "Febrile Seizures",
+        "symptoms": [
+            "fever above 38°C",
+            "seizure or convulsion triggered by high temperature",
+            "loss of consciousness",
+            "body shaking or stiffening",
+            "foaming at mouth",
+            "eyes rolling back"
+        ],
+        "description": "Convulsions triggered by fever in children typically between 6 months and 5 years of age. Usually benign.",
+        "red_flags": [
+            "Seizure lasting more than 5 minutes",
+            "focal seizure",
+            "child does not return to normal after seizure",
+            "recurrent seizures in one episode"
+        ],
+        "urgency_level": "HIGH",
+        "pain_scale": 4,
+        "recommended_action": "Lay child on side (recovery position). Call emergency services. Do not restrain. Anti-seizure medication if prolonged.",
+        "specialist": "Pediatrician / Pediatric Neurologist",
+        "icd10": "R56.0"
+    },
+    {
+        "id": "C007",
+        "category": "child",
+        "symptom_topic": "Fever in children",
+        "disease": "Meningococcal Disease",
+        "symptoms": [
+            "high fever",
+            "stiff neck",
+            "severe headache",
+            "non-blanching petechial rash (spots that don't fade under glass)",
+            "photophobia",
+            "vomiting",
+            "drowsiness or confusion",
+            "cold hands and feet"
+        ],
+        "description": "Life-threatening bacterial infection of the blood and/or membranes surrounding the brain. Rash is a late, ominous sign.",
+        "red_flags": [
+            "Any non-blanching rash (petechiae) with fever",
+            "rapidly spreading purpuric rash",
+            "cold extremities with fever"
+        ],
+        "urgency_level": "CRITICAL",
+        "pain_scale": 5,
+        "recommended_action": "Emergency services (112/911) immediately. IV antibiotics (benzylpenicillin) must be given immediately. This is a true medical emergency.",
+        "specialist": "Pediatric Infectious Disease / Emergency Medicine",
+        "icd10": "A39"
+    },
+    {
+        "id": "C008",
+        "category": "child",
+        "symptom_topic": "Headaches in children",
+        "disease": "Childhood Migraine",
+        "symptoms": [
+            "moderate to severe head pain (often bilateral in children)",
+            "nausea or vomiting",
+            "sensitivity to light and sound",
+            "abdominal pain",
+            "pallor",
+            "pain improves with sleep"
+        ],
+        "description": "Migraine is common in children. Attacks are usually shorter than in adults and may present differently.",
+        "red_flags": [
+            "Worst headache ever",
+            "headache with fever and neck stiffness",
+            "worsening neurological symptoms",
+            "early morning vomiting"
+        ],
+        "urgency_level": "MODERATE",
+        "pain_scale": 3,
+        "recommended_action": "Rest in dark room, paracetamol or ibuprofen. Identify triggers. Triptan nasal spray for older children with severe migraine.",
+        "specialist": "Pediatric Neurologist",
+        "icd10": "G43.9"
+    },
+    {
+        "id": "C009",
+        "category": "child",
+        "symptom_topic": "Joint pain or muscle pain in children",
+        "disease": "Juvenile Idiopathic Arthritis (JIA)",
+        "symptoms": [
+            "joint swelling and pain lasting more than 6 weeks",
+            "morning stiffness",
+            "limping",
+            "warm swollen joints",
+            "fever",
+            "skin rash (systemic JIA)",
+            "eye redness (uveitis)"
+        ],
+        "description": "The most common type of childhood arthritis. An autoimmune condition causing chronic joint inflammation.",
+        "red_flags": [
+            "Joint pain with eye redness or pain (uveitis)",
+            "systemic fever and rash with joint swelling"
+        ],
+        "urgency_level": "MODERATE",
+        "pain_scale": 3,
+        "recommended_action": "NSAIDs for pain. Disease-modifying drugs (methotrexate, biologics). Regular eye checks for uveitis.",
+        "specialist": "Pediatric Rheumatologist / Pediatric Ophthalmologist",
+        "icd10": "M08"
+    },
+    {
+        "id": "C010",
+        "category": "child",
+        "symptom_topic": "Joint pain or muscle pain in children",
+        "disease": "Growing Pains",
+        "symptoms": [
+            "aching pain in both legs (thighs, calves, or behind knees)",
+            "occurs in the evening or nighttime",
+            "pain resolves by morning",
+            "no joint swelling",
+            "no redness",
+            "no fever"
+        ],
+        "description": "Common benign limb pain in children aged 3-12. Etiology is unclear but is non-serious.",
+        "red_flags": [
+            "Arthritis (joint swelling)",
+            "limping",
+            "fever with joint pain",
+            "daytime persistent pain"
+        ],
+        "urgency_level": "LOW",
+        "pain_scale": 2,
+        "recommended_action": "Parental reassurance, massage, stretching, and heat pad. No specific treatment needed.",
+        "specialist": "Pediatrician",
+        "icd10": "M79.3"
+    },
+    {
+        "id": "C011",
+        "category": "child",
+        "symptom_topic": "Skin rashes in children",
+        "disease": "Chickenpox (Varicella)",
+        "symptoms": [
+            "itchy blistering rash (starts on trunk then spreads)",
+            "fever",
+            "fatigue",
+            "loss of appetite",
+            "rash progresses from red spots to fluid-filled blisters then crust"
+        ],
+        "description": "A highly contagious viral illness caused by varicella-zoster virus. Vaccine-preventable.",
+        "red_flags": [
+            "Cellulitis around blisters (secondary infection)",
+            "difficulty breathing (varicella pneumonia)",
+            "confusion (encephalitis)",
+            "immunocompromised child"
+        ],
+        "urgency_level": "LOW",
+        "pain_scale": 2,
+        "recommended_action": "Antiviral (aciclovir) for high-risk children. Calamine lotion, antihistamines for itch. Isolate from school.",
+        "specialist": "Pediatrician / Dermatologist",
+        "icd10": "B01"
+    },
+    {
+        "id": "C012",
+        "category": "child",
+        "symptom_topic": "Skin rashes in children",
+        "disease": "Hand, Foot and Mouth Disease (HFMD)",
+        "symptoms": [
+            "painful sores and blisters in mouth",
+            "flat red spots or blisters on hands and feet",
+            "fever",
+            "sore throat",
+            "drooling",
+            "poor appetite"
+        ],
+        "description": "A common viral infection in children under 5 caused by Coxsackievirus. Usually mild and self-limiting.",
+        "red_flags": [
+            "High persistent fever",
+            "severe headache and stiff neck",
+            "difficulty breathing",
+            "drowsiness"
+        ],
+        "urgency_level": "LOW",
+        "pain_scale": 2,
+        "recommended_action": "Supportive care only. Paracetamol for fever/pain. Encourage fluids. Isolate from school or daycare.",
+        "specialist": "Pediatrician",
+        "icd10": "B08.4"
+    },
+    {
+        "id": "C013",
+        "category": "child",
+        "symptom_topic": "Sore throat in children",
+        "disease": "Tonsillitis",
+        "symptoms": [
+            "sore throat",
+            "swollen red tonsils",
+            "white or yellow coating on tonsils",
+            "difficulty swallowing",
+            "fever",
+            "swollen lymph nodes in neck",
+            "bad breath"
+        ],
+        "description": "Inflammation of the tonsils, most commonly due to viral or bacterial (streptococcal) infection.",
+        "red_flags": [
+            "Drooling indicating inability to swallow",
+            "muffled voice with trismus (quinsy peritonsillar abscess)",
+            "stridor"
+        ],
+        "urgency_level": "MODERATE",
+        "pain_scale": 3,
+        "recommended_action": "Pain relief, warm fluids. Antibiotics for confirmed bacterial tonsillitis. ENT referral for recurrent cases (tonsillectomy).",
+        "specialist": "Pediatrician / ENT Specialist",
+        "icd10": "J03"
+    },
+    {
+        "id": "C014",
+        "category": "child",
+        "symptom_topic": "Urinary problems in children",
+        "disease": "Urinary Tract Infection in Children",
+        "symptoms": [
+            "frequent urination",
+            "burning or pain with urination",
+            "urgency",
+            "bedwetting in previously dry child",
+            "fever (especially in infants)",
+            "vomiting",
+            "cloudy or foul-smelling urine",
+            "abdominal pain"
+        ],
+        "description": "UTI in children, especially infants, can indicate underlying structural renal issues. Requires prompt treatment.",
+        "red_flags": [
+            "Fever in infant under 3 months with suspected UTI",
+            "flank pain with fever (pyelonephritis)",
+            "recurrent UTIs"
+        ],
+        "urgency_level": "MODERATE",
+        "pain_scale": 2,
+        "recommended_action": "Urine culture before antibiotics. Oral antibiotics for simple UTI. IV antibiotics for pyelonephritis. Renal ultrasound for recurrent cases.",
+        "specialist": "Pediatrician / Pediatric Nephrologist / Pediatric Urologist",
+        "icd10": "N39.0"
+    },
+    {
+        "id": "C015",
+        "category": "child",
+        "symptom_topic": "Wheezing in children",
+        "disease": "Bronchiolitis",
+        "symptoms": [
+            "wheezing",
+            "rapid breathing",
+            "difficulty feeding",
+            "mild fever",
+            "runny nose",
+            "cough",
+            "subcostal or intercostal retractions",
+            "crackling sounds in lungs"
+        ],
+        "description": "Inflammation of the small airways (bronchioles), most commonly caused by RSV (Respiratory Syncytial Virus). Most common in infants under 2.",
+        "red_flags": [
+            "Severe breathlessness",
+            "apnea (pauses in breathing)",
+            "cyanosis",
+            "unable to feed",
+            "fatigue"
+        ],
+        "urgency_level": "HIGH",
+        "pain_scale": 3,
+        "recommended_action": "Supportive care: nasal suctioning, ensure hydration. Oxygen for low saturation. Hospitalization for severe cases.",
+        "specialist": "Pediatrician / Pediatric Pulmonologist",
+        "icd10": "J21"
+    },
+    {
+        "id": "C016",
+        "category": "child",
+        "symptom_topic": "Eye discomfort and redness in children",
+        "disease": "Orbital Cellulitis",
+        "symptoms": [
+            "redness and swelling around the eye",
+            "proptosis (eye pushed forward)",
+            "pain on eye movement",
+            "fever",
+            "reduced vision",
+            "double vision",
+            "restricted eye movement"
+        ],
+        "description": "Infection of the soft tissues of the eye socket behind the orbital septum. A life-threatening complication can cause vision loss or spread to brain.",
+        "red_flags": [
+            "Proptosis",
+            "limited eye movement",
+            "reduced vision",
+            "high fever"
+        ],
+        "urgency_level": "CRITICAL",
+        "pain_scale": 4,
+        "recommended_action": "Emergency hospitalization with IV antibiotics. CT scan to exclude abscess requiring surgical drainage.",
+        "specialist": "Pediatric Ophthalmologist / Pediatric ENT / Emergency Medicine",
+        "icd10": "H05.01"
+    },
+    {
+        "id": "C017",
+        "category": "child",
+        "symptom_topic": "Nasal congestion in children",
+        "disease": "Pediatric Sinusitis",
+        "symptoms": [
+            "nasal congestion lasting more than 10 days",
+            "thick yellow or green nasal discharge",
+            "facial pain or headache",
+            "fever",
+            "cough that worsens at night",
+            "periorbital swelling"
+        ],
+        "description": "Bacterial sinusitis in children often follows a viral URI. Symptoms persist longer than in simple colds.",
+        "red_flags": [
+            "Periorbital swelling (orbital complications)",
+            "severe headache",
+            "altered consciousness"
+        ],
+        "urgency_level": "LOW",
+        "pain_scale": 2,
+        "recommended_action": "Saline nasal rinse. Antibiotics (amoxicillin-clavulanate) for bacterial sinusitis. Decongestants for symptom relief with physician guidance.",
+        "specialist": "Pediatrician / Pediatric ENT",
+        "icd10": "J32.4"
+    },
+    {
+        "id": "C018",
+        "category": "child",
+        "symptom_topic": "Nausea or vomiting in children",
+        "disease": "Pyloric Stenosis",
+        "symptoms": [
+            "projectile non-bilious vomiting in infant aged 2-8 weeks",
+            "hungry after vomiting",
+            "visible wave-like motion on abdomen",
+            "dehydration",
+            "failure to thrive",
+            "olive-shaped abdominal mass"
+        ],
+        "description": "Narrowing of the pylorus (stomach outlet) causing obstruction in infants. Requires surgical treatment.",
+        "red_flags": [
+            "Projectile vomiting in infant under 2 months",
+            "visible gastric peristalsis",
+            "dehydration in infant",
+            "failure to gain weight"
+        ],
+        "urgency_level": "HIGH",
+        "pain_scale": 3,
+        "recommended_action": "Ultrasound for confirmation. Correction of electrolytes. Pyloromyotomy (surgery) is curative.",
+        "specialist": "Pediatric Surgeon",
+        "icd10": "Q40.0"
+    },
+    {
+        "id": "C019",
+        "category": "child",
+        "symptom_topic": "Earache in children",
+        "disease": "Mastoiditis",
+        "symptoms": [
+            "ear pain",
+            "redness and swelling behind the ear (mastoid area)",
+            "ear pushed forward and outward",
+            "fever",
+            "hearing loss",
+            "recent ear infection"
+        ],
+        "description": "Bacterial infection of the mastoid bone behind the ear. A complication of untreated otitis media. Can spread to the brain.",
+        "red_flags": [
+            "Pinna pushed outward",
+            "redness and swelling behind the ear",
+            "recent ear infection with high fever"
+        ],
+        "urgency_level": "HIGH",
+        "pain_scale": 4,
+        "recommended_action": "Urgent ENT referral. IV antibiotics. CT scan. Surgical drainage (mastoidectomy) if abscess present.",
+        "specialist": "ENT Specialist / Pediatric Infectious Disease",
+        "icd10": "H70"
+    },
+    {
+        "id": "C020",
+        "category": "child",
+        "symptom_topic": "Eye problems in children",
+        "disease": "Retinoblastoma",
+        "symptoms": [
+            "white pupil reflex (leukocoria) in photographs",
+            "misaligned eyes (strabismus)",
+            "red or painful eye",
+            "poor vision in one eye",
+            "bulging eye"
+        ],
+        "description": "A rare but serious eye tumor in children, most common under 5 years. Detected early with strong visual prognosis.",
+        "red_flags": [
+            "White glow in the pupil in photos",
+            "new squint in young child"
+        ],
+        "urgency_level": "HIGH",
+        "pain_scale": 2,
+        "recommended_action": "Immediate ophthalmology referral. Eyes under anesthesia examination (EUA). Oncology involvement.",
+        "specialist": "Pediatric Ophthalmologist / Pediatric Oncologist",
+        "icd10": "C69.2"
+    }
+]
